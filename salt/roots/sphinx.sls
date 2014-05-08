@@ -9,6 +9,7 @@ base-packages:
             - git-core
             - make
             - nginx
+            - graphviz
             
 # install virtualenvwrapper via pip, not really needed but handy...
 virtualenvwrapper:
