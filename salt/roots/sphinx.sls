@@ -52,6 +52,7 @@ docs-git:
     file.directory:
         - user: sphinx
         - group: sphinx
+        - makedirs: True
         - require:
             - git: docs-git
         
@@ -59,6 +60,7 @@ docs-git:
     file.directory:
         - user: sphinx
         - group: sphinx
+        - makedirs: True
         - require:
             - git: docs-git
 
