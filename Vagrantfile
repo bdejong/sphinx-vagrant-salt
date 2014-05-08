@@ -6,7 +6,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     config.vm.define :master do |sphinx|
         sphinx.vm.hostname = "sphinx"
-        sphinx.vm.network :private_network, ip: "10.10.10.10"
+        sphinx.vm.network :private_network, ip: "192.168.100.100"
 
         sphinx.vm.synced_folder "salt/roots", "/srv/salt"
         
